@@ -2,9 +2,38 @@ body {
   font-family: "poppins", sans-serif;
   text-align: center;
 }
-h1 {
-  font-family: "poppins", sans-serif;
-  font-style: normal;
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../images/lisbon.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
   text-align: center;
-  font-size: 48px;
+}
+header h1 {
+  font-size: 96px;
+  line-height: 1.5;
+  font-weight: 700;
+}
+header h2 {
+  font-size: 40px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+header h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  font-weight: 900;
+  letter-spacing: 5px;
+}
+header a {
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 3px;
 }
