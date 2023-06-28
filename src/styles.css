@@ -46,7 +46,7 @@ header a {
   color: black;
   padding: 16px 32px;
   margin-top: 32px;
-  display: inline;
+  display: inline-block;
 }
 @media (max-width: 900px) {
   header {
