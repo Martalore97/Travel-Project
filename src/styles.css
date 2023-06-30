@@ -14,6 +14,12 @@ body {
 .grid-2-columns {
   grid-template-columns: auto auto;
 }
+.img-responsive {
+  max-width: 100%;
+}
+.grid-3-columns-with-first-narrow {
+  grid-template-columns: 1fr 2fr 2fr;
+}
 header {
   background-image: linear-gradient(
       rgba(39, 32, 68, 0.4),
@@ -141,6 +147,9 @@ footer a {
   }
   .grid {
     grid-template-columns: 1fr;
-    grid-gap: px;
+    grid-gap: 32px;
+  }
+  section {
+    padding: 30px;
   }
 }
