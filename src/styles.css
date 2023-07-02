@@ -2,6 +2,10 @@ body {
   font-family: "poppins", sans-serif;
   background-color: rgb(39, 32, 68);
 }
+blockquote {
+  margin: 30px;
+  display: block;
+}
 .container {
   max-width: 1400px;
   margin: 0 auto;
